@@ -393,13 +393,21 @@ body:before {
 
 
 /*section-two container*/
-.section-two-background-color{
+.section-two-background-color, .section-three-background-color, .section-four-background-color, 
+.section-five-background-color{
     overflow: hidden;
     width: 100%;
     margin: auto;
     background-color: white;
    /* position: fixed;
     z-index: 50;*/
+}
+
+.footer-background-color{
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
 }
 
 .section-two{
@@ -410,7 +418,7 @@ body:before {
     margin-top:10em;
 }
 
-.section-three{
+.section-three, .section-four, .section-five{
     width:95%;
     margin:auto;
 /*    outline: 1px pink solid;*/
@@ -419,14 +427,51 @@ body:before {
 }
 
 
-.section-four{
+.footer-section{
     width:95%;
     margin:auto;
 /*    outline: 1px pink solid;*/
-    height: 45em;
-   
+    height: 30em;
+
 }
 
+.contact{
+    color:white;
+/*       font-family: 'Schnyder Family'; */
+       font-family: 'Euclid Circular A Trial';
+     font-size:1.5em;
+     padding-top:4em;
+     font-weight:200;
+      letter-spacing: .02em;
+/*      line-height:0.8em;*/
+
+
+}
+
+
+#email{
+    color:white;
+/*       font-family: 'Schnyder Family'; */
+       font-family: 'Euclid Circular A Trial';
+     font-size:1.5em;
+     padding-top:1em;
+     font-weight:200;
+      letter-spacing: .02em;
+/*      line-height:0.8em;*/
+text-decoration:underline;
+color: white !important;
+
+
+}
+
+#email a, .email a{
+    color:white !important;
+}
+
+
+.email-link, .email{
+    color:white !important;
+}
 
 
 
@@ -479,6 +524,19 @@ body:before {
 
 
 
+.image-title-five{
+    font-size: 5em;
+    color: white;
+     font-family: 'Schnyder Family'; 
+    font-weight: 300;
+    letter-spacing: .02em;
+    text-align:center;
+     padding-top:2.3em;
+}
+
+
+
+
 
 .background-image {
   background-repeat: no-repeat;
@@ -489,8 +547,18 @@ body:before {
 }
 
 
+
+/*
+.background-image {
+  filter: gray; 
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1);
+}
+
+*/
+
 .image-two{
-  background-image: url('../image/aut-design.jpg');
+  background-image: url('../image/aut-diamond.jpg');
   background-repeat: no-repeat;
 /*  background-attachment: fixed;*/
 /*  background-size: cover;*/
@@ -529,6 +597,25 @@ body:before {
 
 .image-four{
   background-image: url('../image/sparc.jpg');
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  background-position-x: 20%;
+  background-position-y: 50%;*/
+  height: 30em;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  position: absolute;
+  /*    margin-top: 10em;*/
+   left:0;
+  /*background-position: center center;*/
+}
+
+
+.image-five{
+  background-image: url('../image/vodafone.jpg');
   background-repeat: no-repeat;
   /*background-attachment: fixed;
   background-size: cover;
